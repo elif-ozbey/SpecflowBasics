@@ -17,6 +17,17 @@ namespace SpecflowBasics.StepDefinitions
             Console.WriteLine($"The User {person.Name} has email {person.Email} has Adress {person.Adress}");
         }
 
+        [Given(@"I input dynamic domain for (.*email)")]
+        public void GivenIInputDynamicDomainForEobeyGmailEmail(string email)
+        {
+            Console.WriteLine($"The random email adress is:{email}");
+        }
+
+
+
+        
+
+
         public record User
         {
             public string Name { get; set; }

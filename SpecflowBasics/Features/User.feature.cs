@@ -105,6 +105,9 @@ this.ScenarioInitialize(scenarioInfo);
 #line 7
  testRunner.Given("I Enter Random User Data", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
+#line 8
+  testRunner.And("I input dynamic domain for eobey@gmail email", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line hidden
             }
             this.ScenarioCleanup();
         }
